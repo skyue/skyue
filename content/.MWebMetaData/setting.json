@@ -1,0 +1,10 @@
+{
+  "name" : "content(blog)",
+  "fileExtension" : ".md",
+  "autoUploadInsertedImageKey" : "又拍云blog_static-https:\/\/v0.api.upyun.com\/",
+  "autoUploadInsertedImage" : false,
+  "folderType" : 11,
+  "mediaFloder" : "blog_static\/{year}",
+  "orderBy" : 0,
+  "newlinesToBR" : 0
+}
