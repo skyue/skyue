@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hugo --gc --minify --cleanDestinationDir",
+    "ipfs-deploy": "./node_modules/ipfs-deploy/bin/ipfs-deploy.js -p infura public -p pinata public -u pinata -d cloudflare -C -O"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyue/skyue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skyue/skyue/issues"
+  },
+  "homepage": "https://github.com/skyue/skyue#readme",
+  "devDependencies": {
+    "ipfs-deploy": "^7.13.0"
+  }
+}
